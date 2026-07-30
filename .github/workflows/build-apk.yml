@@ -18,7 +18,7 @@ jobs:
       
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.0'
+          flutter-version: '3.22.4'   # ← CAMBIADO A 3.22.4
       
       - run: flutter pub get
       - run: flutter build apk --release
