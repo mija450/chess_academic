@@ -1,0 +1,175 @@
+[
+  {
+    "id": "l1",
+    "level": "Nivel 1: Introducción",
+    "title": "¿Qué es el ajedrez?",
+    "content": [
+      "El ajedrez es un juego de estrategia para dos jugadores que se juega en un tablero de 64 casillas. Cada jugador controla 16 piezas: un rey, una dama, dos torres, dos alfiles, dos caballos y ocho peones.",
+      "Su origen se remonta a la India hace más de 1500 años, con el juego 'chaturanga'. De ahí viajó a Persia, luego al mundo árabe y finalmente a Europa, donde tomó la forma que conocemos hoy.",
+      "El objetivo del juego es dar 'jaque mate' al rey del rival: atacar al rey de forma que no pueda escapar, ser bloqueado ni el atacante capturado.",
+      "Se dice que un rey está en 'jaque' cuando está siendo atacado directamente por una pieza rival. El jugador debe responder inmediatamente, ya sea moviendo el rey, bloqueando el ataque o capturando la pieza atacante.",
+      "Si un rey está en jaque y no existe ninguna forma de librarlo, es 'jaque mate' y la partida termina.",
+      "Existe otra forma especial de terminar la partida: el 'ahogado'. Ocurre cuando un jugador no está en jaque, pero no tiene ningún movimiento legal disponible. En ese caso, la partida es tablas (empate)."
+    ],
+    "demoFen": "start",
+    "exercises": []
+  },
+  {
+    "id": "l2",
+    "level": "Nivel 2: El Tablero",
+    "title": "El tablero de ajedrez",
+    "content": [
+      "El tablero tiene 64 casillas organizadas en 8 filas (numeradas del 1 al 8) y 8 columnas (llamadas 'columnas' o 'files', nombradas de la a a la h).",
+      "Cada casilla tiene una coordenada única, formada por su columna y su fila. Por ejemplo, la esquina inferior izquierda desde el punto de vista de las blancas es 'a1', y la esquina superior derecha es 'h8'.",
+      "Las casillas alternan colores: claras y oscuras. El tablero siempre se coloca de forma que cada jugador tenga una casilla clara en la esquina inferior derecha.",
+      "Las piezas blancas comienzan en las filas 1 y 2, y las piezas negras en las filas 7 y 8. Aprender las coordenadas es esencial para leer partidas, resolver ejercicios y anotar tus propias jugadas."
+    ],
+    "demoFen": "start",
+    "exercises": []
+  },
+  {
+    "id": "l3_king",
+    "level": "Nivel 3: Las Piezas",
+    "title": "El Rey",
+    "pieceSymbol": "♔",
+    "pieceValue": "Invaluable",
+    "content": [
+      "El rey es la pieza más importante del juego: si es capturado (jaque mate), la partida termina. Sin embargo, en términos de valor material no se le asigna un número, ya que no se puede intercambiar por otras piezas.",
+      "El rey se mueve una sola casilla en cualquier dirección: horizontal, vertical o diagonal.",
+      "El rey nunca puede moverse a una casilla donde sería capturado. Por eso protegerlo es una de las prioridades más importantes durante toda la partida.",
+      "Un error común de los principiantes es no cuidar la seguridad del rey al inicio de la partida. Lo ideal es resguardarlo pronto, generalmente mediante el enroque."
+    ],
+    "demoFen": "4k3/8/8/8/8/8/8/4K3 w - - 0 1",
+    "exercises": [
+      {
+        "instruction": "Mueve el rey blanco a cualquier casilla vecina.",
+        "fen": "4k3/8/8/8/8/8/8/4K3 w - - 0 1",
+        "solution": "ANY"
+      }
+    ]
+  },
+  {
+    "id": "l3_queen",
+    "level": "Nivel 3: Las Piezas",
+    "title": "La Dama",
+    "pieceSymbol": "♕",
+    "pieceValue": "9 puntos",
+    "content": [
+      "La dama es la pieza más poderosa del tablero. Combina los movimientos de la torre y el alfil: puede moverse en línea recta horizontal, vertical o en diagonal, tantas casillas como quiera mientras el camino esté libre.",
+      "Por su gran movilidad, vale 9 puntos, el valor más alto entre las piezas (sin contar al rey).",
+      "Un error común es sacar la dama demasiado pronto en la partida, exponiéndola a ataques de piezas menores que la obligan a retroceder y pierdes tiempo valioso."
+    ],
+    "demoFen": "4k3/8/8/8/3r4/8/8/3QK3 w - - 0 1",
+    "exercises": [
+      {
+        "instruction": "Captura la torre negra con tu dama.",
+        "fen": "4k3/8/8/8/3r4/8/8/3QK3 w - - 0 1",
+        "solution": "d1d4"
+      }
+    ]
+  },
+  {
+    "id": "l3_rook",
+    "level": "Nivel 3: Las Piezas",
+    "title": "La Torre",
+    "pieceSymbol": "♖",
+    "pieceValue": "5 puntos",
+    "content": [
+      "La torre se mueve en línea recta: horizontal o vertical, tantas casillas como quiera, siempre que el camino esté libre.",
+      "Vale 5 puntos. Las torres son especialmente fuertes en los finales de partida, cuando el tablero está más despejado.",
+      "Las torres también participan en un movimiento especial llamado 'enroque', que verás en la siguiente lección."
+    ],
+    "demoFen": "4k3/8/8/8/8/8/8/3RK3 w - - 0 1",
+    "exercises": [
+      {
+        "instruction": "Mueve la torre blanca en línea recta a cualquier casilla libre.",
+        "fen": "4k3/8/8/8/8/8/8/3RK3 w - - 0 1",
+        "solution": "ANY"
+      }
+    ]
+  },
+  {
+    "id": "l3_bishop",
+    "level": "Nivel 3: Las Piezas",
+    "title": "El Alfil",
+    "pieceSymbol": "♗",
+    "pieceValue": "3 puntos",
+    "content": [
+      "El alfil se mueve solo en diagonal, tantas casillas como quiera. Por eso, cada alfil queda 'atado' de por vida a las casillas de un solo color: claras u oscuras.",
+      "Vale 3 puntos. Un error común es no darse cuenta de que un alfil jamás podrá atacar una casilla del color contrario.",
+      "Tener 'la pareja de alfiles' (los dos alfiles vivos) suele ser una ventaja en finales abiertos, porque juntos controlan casillas de ambos colores."
+    ],
+    "demoFen": "4k3/8/8/8/8/8/8/2B1K3 w - - 0 1",
+    "exercises": [
+      {
+        "instruction": "Mueve el alfil blanco en diagonal a cualquier casilla libre.",
+        "fen": "4k3/8/8/8/8/8/8/2B1K3 w - - 0 1",
+        "solution": "ANY"
+      }
+    ]
+  },
+  {
+    "id": "l3_knight",
+    "level": "Nivel 3: Las Piezas",
+    "title": "El Caballo",
+    "pieceSymbol": "♘",
+    "pieceValue": "3 puntos",
+    "content": [
+      "El caballo se mueve en forma de 'L': dos casillas en una dirección (horizontal o vertical) y luego una casilla perpendicular.",
+      "Es la única pieza que puede saltar por encima de otras piezas, lo que lo hace muy útil en posiciones cerradas y llenas de piezas.",
+      "Vale 3 puntos, igual que el alfil, aunque su valor relativo cambia según la posición: en el centro del tablero es más fuerte que en las esquinas.",
+      "Un error muy común de los principiantes es olvidar que el caballo, a diferencia de las demás piezas, no se mueve en línea recta ni en diagonal."
+    ],
+    "demoFen": "4k3/8/8/8/8/8/8/1N2K3 w - - 0 1",
+    "exercises": [
+      {
+        "instruction": "Mueve el caballo blanco haciendo la forma de 'L'.",
+        "fen": "4k3/8/8/8/8/8/8/1N2K3 w - - 0 1",
+        "solution": "ANY"
+      }
+    ]
+  },
+  {
+    "id": "l3_pawn",
+    "level": "Nivel 3: Las Piezas",
+    "title": "El Peón",
+    "pieceSymbol": "♙",
+    "pieceValue": "1 punto",
+    "content": [
+      "El peón avanza una casilla hacia adelante (nunca hacia atrás), pero en su primer movimiento puede avanzar dos casillas.",
+      "A diferencia de su avance, el peón captura en diagonal, una casilla hacia adelante a la izquierda o derecha.",
+      "Vale 1 punto: es la pieza más débil, pero también la más numerosa, y sus estructuras determinan gran parte de la estrategia de la partida.",
+      "Si un peón llega hasta la última fila del tablero, se corona: se transforma en cualquier otra pieza (normalmente una dama).",
+      "También existe una captura especial llamada 'en passant' (al paso), que ocurre cuando un peón rival avanza dos casillas justo al lado de uno de tus peones."
+    ],
+    "demoFen": "4k3/8/8/8/8/8/4P3/4K3 w - - 0 1",
+    "exercises": [
+      {
+        "instruction": "Avanza el peón blanco.",
+        "fen": "4k3/8/8/8/8/8/4P3/4K3 w - - 0 1",
+        "solution": "ANY"
+      }
+    ]
+  },
+  {
+    "id": "l4_special",
+    "level": "Nivel 4: Movimientos Especiales",
+    "title": "Enroque, coronación y en passant",
+    "content": [
+      "El enroque es el único movimiento en el que se mueven dos piezas propias a la vez: el rey y una torre. Sirve para poner al rey a salvo y activar la torre.",
+      "En el enroque corto, el rey se mueve dos casillas hacia el flanco del rey (hacia la torre h) y la torre salta a la casilla que el rey acaba de cruzar.",
+      "En el enroque largo, el rey se mueve dos casillas hacia el flanco de dama (hacia la torre a). Es un poco más lento de preparar, pero suele dar buena actividad a la torre.",
+      "Para enrocar, ni el rey ni la torre implicada deben haberse movido antes, no puede haber piezas entre ellos, el rey no debe estar en jaque, y no puede pasar por ninguna casilla atacada.",
+      "La coronación ocurre cuando un peón alcanza la última fila: se convierte en dama, torre, alfil o caballo (casi siempre en dama, por ser la pieza más fuerte).",
+      "La captura al paso ('en passant') es un caso especial: si un peón rival avanza dos casillas y queda justo al lado de uno de tus peones, puedes capturarlo como si solo hubiera avanzado una casilla, pero únicamente en la jugada inmediatamente siguiente."
+    ],
+    "demoFen": "8/P7/8/8/8/8/8/k1K5 w - - 0 1",
+    "exercises": [
+      {
+        "instruction": "Corona el peón convirtiéndolo en dama.",
+        "fen": "8/P7/8/8/8/8/8/k1K5 w - - 0 1",
+        "solution": "a7a8q"
+      }
+    ]
+  }
+]

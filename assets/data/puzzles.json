@@ -1,0 +1,122 @@
+[
+  {
+    "id": "p1",
+    "title": "Mate en 1: Torre en la última fila",
+    "fen": "6k1/5ppp/8/8/8/8/8/4R1K1 w - - 0 1",
+    "solution": "e1e8",
+    "difficulty": "Fácil",
+    "xp": 15,
+    "hint": "Los peones negros no dejan escapar al rey. Ataca la fila 8.",
+    "category": "Mate en 1"
+  },
+  {
+    "id": "p2",
+    "title": "Mate en 1: La dama decide",
+    "fen": "6k1/5ppp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+    "solution": "d1d8",
+    "difficulty": "Fácil",
+    "xp": 15,
+    "hint": "La dama controla toda la fila 8.",
+    "category": "Mate en 1"
+  },
+  {
+    "id": "p3",
+    "title": "Mate en 1: Rey y torre en equipo",
+    "fen": "7k/8/6K1/8/8/8/8/R7 w - - 0 1",
+    "solution": "a1a8",
+    "difficulty": "Medio",
+    "xp": 20,
+    "hint": "Tu rey le quita casillas de escape al rey negro.",
+    "category": "Mate en 1"
+  },
+  {
+    "id": "p4",
+    "title": "Mate en 1: Escalera de torres",
+    "fen": "7k/R7/8/8/8/8/8/1R2K3 w - - 0 1",
+    "solution": "b1b8",
+    "difficulty": "Medio",
+    "xp": 20,
+    "hint": "Una torre ya corta la fila 7. Usa la otra.",
+    "category": "Mate en 1"
+  },
+  {
+    "id": "p5",
+    "title": "Táctica: El caballo hace doble ataque",
+    "fen": "r3k3/8/8/1N6/8/8/8/4K3 w - - 0 1",
+    "solution": "b5c7",
+    "difficulty": "Medio",
+    "xp": 15,
+    "hint": "El caballo puede atacar dos piezas a la vez: el rey y la torre.",
+    "category": "Tácticas"
+  },
+  {
+    "id": "p6",
+    "title": "Táctica: Gana la dama",
+    "fen": "4k3/8/8/8/3q4/2B5/8/4K3 w - - 0 1",
+    "solution": "c3d4",
+    "difficulty": "Fácil",
+    "xp": 15,
+    "hint": "La dama negra está completamente indefensa.",
+    "category": "Tácticas"
+  },
+  {
+    "id": "p7",
+    "title": "Táctica: Captura la torre",
+    "fen": "4k3/8/8/8/8/3r4/8/3RK3 w - - 0 1",
+    "solution": "d1d3",
+    "difficulty": "Fácil",
+    "xp": 10,
+    "hint": "La torre negra no tiene ninguna defensa.",
+    "category": "Tácticas"
+  },
+  {
+    "id": "p8",
+    "title": "Táctica: Gana el alfil",
+    "fen": "4k3/8/8/8/2b5/8/4Q3/4K3 w - - 0 1",
+    "solution": "e2c4",
+    "difficulty": "Fácil",
+    "xp": 10,
+    "hint": "La dama puede moverse en diagonal para capturar.",
+    "category": "Tácticas"
+  },
+  {
+    "id": "p9",
+    "title": "Caballos: Captura con el caballo",
+    "fen": "4k3/8/8/2n5/8/1N6/8/4K3 w - - 0 1",
+    "solution": "b3c5",
+    "difficulty": "Fácil",
+    "xp": 10,
+    "hint": "Recuerda: el caballo se mueve en forma de 'L'.",
+    "category": "Caballos"
+  },
+  {
+    "id": "p10",
+    "title": "Caballos: Salta y gana la torre",
+    "fen": "3r2k1/5N2/8/8/8/8/8/4K3 w - - 0 1",
+    "solution": "f7d8",
+    "difficulty": "Medio",
+    "xp": 15,
+    "hint": "El caballo puede saltar sobre cualquier pieza para llegar a su destino.",
+    "category": "Caballos"
+  },
+  {
+    "id": "p11",
+    "title": "Finales: Corona el peón",
+    "fen": "8/P7/8/8/8/8/8/k1K5 w - - 0 1",
+    "solution": "a7a8q",
+    "difficulty": "Fácil",
+    "xp": 10,
+    "hint": "Convierte tu peón en la pieza más fuerte del tablero.",
+    "category": "Finales"
+  },
+  {
+    "id": "p12",
+    "title": "Finales: Rey activo",
+    "fen": "4k3/8/3p4/4K3/8/8/8/8 w - - 0 1",
+    "solution": "e5d6",
+    "difficulty": "Fácil",
+    "xp": 10,
+    "hint": "En el final, el rey también es una pieza de ataque.",
+    "category": "Finales"
+  }
+]

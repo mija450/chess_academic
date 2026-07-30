@@ -1,0 +1,86 @@
+[
+  {
+    "id": "g1",
+    "white": "Paul Morphy",
+    "black": "Duque de Brunswick y Conde Isouard",
+    "event": "La Partida de la Ópera, París",
+    "year": "1858",
+    "movesUci": [
+      "e2e4","e7e5","g1f3","d7d6","d2d4","c8g4","d4e5","g4f3","d1f3","d6e5",
+      "f1c4","g8f6","f3b3","d8e7","b1c3","c7c6","c1g5","b7b5","c3b5","c6b5",
+      "c4b5","b8d7","e1c1","a8d8","d1d7","d8d7","h1d1","e7e6","b5d7","f6d7",
+      "b3b8","d7b8","d1d8"
+    ],
+    "movesSan": [
+      "e4","e5","Nf3","d6","d4","Bg4","dxe5","Bxf3","Qxf3","dxe5",
+      "Bc4","Nf6","Qb3","Qe7","Nc3","c6","Bg5","b5","Nxb5","cxb5",
+      "Bxb5+","Nbd7","O-O-O","Rd8","Rxd7","Rxd7","Rd1","Qe6","Bxd7+","Nxd7",
+      "Qb8+","Nxb8","Rd8#"
+    ],
+    "comments": [
+      "Morphy abre con el peón de rey, ocupando el centro.",
+      "Las negras responden de forma simétrica.",
+      "El caballo se desarrolla y ataca el peón e5.",
+      "Un desarrollo algo pasivo que no ayuda a completar la movilización de piezas.",
+      "Morphy gana espacio en el centro.",
+      "Las negras clavan el caballo f3 contra la dama blanca.",
+      "Morphy captura el peón central.",
+      "Las negras capturan el caballo, rompiendo la clavada.",
+      "Morphy recaptura con la dama, manteniendo la iniciativa.",
+      "Las negras recuperan el peón.",
+      "El alfil apunta hacia el punto débil f7.",
+      "Desarrollo natural del caballo.",
+      "La dama ataca simultáneamente b7 y f7.",
+      "Las negras defienden ambos puntos débiles.",
+      "Morphy desarrolla otra pieza ganando tiempo.",
+      "Un movimiento poco ambicioso que no ayuda al desarrollo negro.",
+      "El alfil clava el caballo f6 contra la dama.",
+      "Un intento de contraatacar en el flanco de dama que abre líneas peligrosas.",
+      "¡Sacrificio de pieza para abrir el ataque!",
+      "Las negras recapturan, pero el rey queda expuesto.",
+      "Jaque, ganando un tiempo crucial para el desarrollo.",
+      "Las negras bloquean el jaque con el caballo.",
+      "Morphy enroca largo, poniendo su última torre en juego de inmediato.",
+      "Las negras intentan defender la posición sobre la columna d.",
+      "¡Morphy entrega la torre para destruir la defensa negra!",
+      "Las negras recapturan, obligadas.",
+      "La segunda torre entra en juego con tempo, amenazando de nuevo.",
+      "Las negras intentan reagrupar sus piezas.",
+      "¡Otro sacrificio! El alfil elimina al defensor clave del rey.",
+      "Las negras recapturan con el caballo, su única opción.",
+      "¡El golpe decisivo! La dama se sacrifica para atraer al caballo a una casilla fatal.",
+      "Forzado: las negras deben capturar la dama.",
+      "Jaque mate. La torre entrega el golpe final con la ayuda de todas las piezas blancas."
+    ]
+  },
+  {
+    "id": "g2",
+    "white": "Legall de Kermeur",
+    "black": "Saint Brie",
+    "event": "La Trampa de Légal, París",
+    "year": "1750",
+    "movesUci": [
+      "e2e4","e7e5","g1f3","d7d6","f1c4","c8g4","b1c3","g7g6",
+      "f3e5","g4d1","c4f7","e8e7","c3d5"
+    ],
+    "movesSan": [
+      "e4","e5","Nf3","d6","Bc4","Bg4","Nc3","g6",
+      "Nxe5","Bxd1","Bxf7+","Ke7","Nd5#"
+    ],
+    "comments": [
+      "Apertura clásica: las blancas ocupan el centro con el peón de rey.",
+      "Las negras responden de forma simétrica.",
+      "El caballo se desarrolla y ataca el peón e5.",
+      "Las negras defienden el peón e5 con el peón de dama.",
+      "El alfil blanco apunta hacia el punto débil f7.",
+      "Las negras clavan el caballo f3 contra la dama... ¡un movimiento peligroso!",
+      "Las blancas desarrollan otra pieza, ignorando la clavada a propósito.",
+      "Un movimiento que no resuelve el verdadero problema de la posición negra.",
+      "¡Sacrificio de caballo! Las blancas invitan a las negras a capturar la dama.",
+      "Las negras muerden el anzuelo y capturan la dama... ¡cayendo en la trampa de Légal!",
+      "Jaque devastador: el alfil elimina el peón f7 y ataca al rey negro.",
+      "El rey negro se ve forzado a salir al centro del tablero.",
+      "¡Jaque mate! El caballo y el alfil combinan sus fuerzas: el rey no tiene escapatoria."
+    ]
+  }
+]

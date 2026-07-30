@@ -1,0 +1,48 @@
+name: chess_academic
+description: "Chess Academic - Aprende y domina el ajedrez"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.2
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/lessons.json
+    - assets/data/puzzles.json
+    - assets/data/games.json
+    - assets/icon/icon.png
+    - assets/img/curso.png
+    - assets/img/puzzles.png
+    - assets/img/editor.png
+    - assets/img/partidas.png
+    - assets/img/reto.png
+    - assets/img/minijuegos.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#2E7D32"
+  adaptive_icon_foreground: "assets/icon/icon.png"
+  min_sdk_android: 21 
